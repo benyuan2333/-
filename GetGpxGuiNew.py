@@ -88,14 +88,7 @@ class StravaDownloader(tb.Window):
         self.style.theme_use(new_theme)
 
     def default_cookie(self):
-        return ("sp=338d9f5c-67b8-4703-8236-af8a7d05a349; _strava_cbv3=true; _scid=c9b51c7c-33dd-4c85-8f98-45c8b2553517; "
-                "_fbp=fb.1.1705550137010.260212866; ui_language=zh-CN; xp_session_identifier=ht7tlywrs6v; "
-                "strava_remember_id=128962200; strava_remember_token=eyJzaWduaW5nX2tleSI6InYxIiwiZW5jcnlwdGlvbl9rZXkiOiJ2MSIsIml2IjoiZzhETVpoSFNGV0lDdE81ejQ5N2o5UT09XG4iLCJhbGciOiJIUzI1NiJ9."
-                "eyJpc3MiOiJjb20uc3RyYXZhLmF0aGxldGVzIiwic3ViIjoxMjg5NjIyMDAsImlhdCI6MTcxMjQ1NjQzMCwiZXhwIjoxNzE1MDQ4NDMwLCJlbWFpbCI6Ikc3SG1paDlBNEE0MnJCVFhBYXdtNk9UdjViaHNiQjlycE81TmVCZmkxeFNTamJoZXlrR1V0VzZwVHhlRlxuZE9RSlZ0eW1SMk5xSDMyVi9HUndVYTYwNWc9PVxuIn0.Z8wUcvCfaoAZMtIXivPr4vFgZN2Kdlf9yUvwfEWygmo; "
-                "globalHeatmapAboutModal=true; _gcl_au=1.1.152883235.1713233379; _strava4_session=feqju511l01ebl7l2tsc82fui603sopm; _gid=GA1.2.32313483.1714973787; "
-                "_scid_r=c9b51c7c-33dd-4c85-8f98-45c8b2553517; _sctr=1%7C1714924800000; _sp_ses.047d=*; _dc_gtm_UA-6309847-24=1; "
-                "_sp_id.047d=34f0858d-5a8e-465e-9ce6-f941d67852e5.1712456436.65.1714989294.1714981527.c3f506ae-cef2-4b37-96d9-0ed6f635cf31; "
-                "_ga_ESZ0QKJW56=GS1.1.1714988302.211.1.1714989294.12.0.0; _ga=GA1.1.512296734.1705457169")
+        return ("")
 
     def set_default_entry(self, entry, default_value, width):
         entry.config(width=width)
